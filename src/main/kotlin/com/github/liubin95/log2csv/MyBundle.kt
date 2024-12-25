@@ -1,4 +1,4 @@
-package org.jetbrains.plugins.template
+package com.github.liubin95.log2csv
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls
