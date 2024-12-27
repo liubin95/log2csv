@@ -1,0 +1,15 @@
+2024-12-26T13:54:06.727+08:00  INFO 74701 --- [spring-demo] [           main] c.e.springdemo.SpringDemoApplication     : Starting SpringDemoApplication using Java 17.0.11 with PID 74701 (/Users/liubin/code/spring-demo/build/classes/java/main started by liubin in /Users/liubin/code/spring-demo)
+2024-12-26T13:54:06.729+08:00  INFO 74701 --- [spring-demo] [           main] c.e.springdemo.SpringDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-12-26T13:54:07.841+08:00  INFO 74701 --- [spring-demo] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2024-12-26T13:54:07.848+08:00  INFO 74701 --- [spring-demo] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-26T13:54:07.849+08:00  INFO 74701 --- [spring-demo] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-26T13:54:07.879+08:00  INFO 74701 --- [spring-demo] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-26T13:54:07.880+08:00  INFO 74701 --- [spring-demo] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1094 ms
+2024-12-26T13:54:08.346+08:00  INFO 74701 --- [spring-demo] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-12-26T13:54:08.399+08:00  INFO 74701 --- [spring-demo] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2024-12-26T13:54:08.415+08:00  INFO 74701 --- [spring-demo] [           main] c.e.springdemo.SpringDemoApplication     : Started SpringDemoApplication in 2.076 seconds (process running for 2.703)
+2024-12-26T13:54:08.576+08:00  INFO 74701 --- [spring-demo] [n(2)-10.0.2.201] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-26T13:54:08.578+08:00  INFO 74701 --- [spring-demo] [n(2)-10.0.2.201] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-26T13:54:08.600+08:00  INFO 74701 --- [spring-demo] [n(2)-10.0.2.201] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2024-12-26T13:54:21.616+08:00  INFO 74701 --- [spring-demo] [nio-9090-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [Hm_lvt_133d771d1956d2570afcd39e7a1a616d=1732499847,1733377239;] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.

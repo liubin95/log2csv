@@ -1,18 +1,24 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>com.github.liubin95.log2csv</id>
-    <name>log2csv</name>
+    <name>Log2csv</name>
     <vendor>liubin95</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
-    <resource-bundle>messages.MyBundle</resource-bundle>
+    <resource-bundle>messages.Log2csvBundle</resource-bundle>
 
+    <actions>
+        <!-- 添加一个新的 action -->
+        <action id="com.github.liubin95.log2csv.actions.PopupAction"
+                class="com.github.liubin95.log2csv.actions.PopupAction"
+                text="Log2csv"
+                description="Log2csv description">
+            <!-- 添加到编辑器弹出菜单 -->
+            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+        </action>
+    </actions>
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.liubin95.log2csv.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
+        <languageBundle locale="zh-CN"/>
     </extensions>
-
-    <applicationListeners>
-        <listener class="com.github.liubin95.log2csv.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
-    </applicationListeners>
 </idea-plugin>
